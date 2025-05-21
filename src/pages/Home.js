@@ -8,6 +8,7 @@ import Vacina from "../imagens/vacina-cachorro.jpg"
 import BemVindo from "../components/BemVindo";
 import Clientes from "../components/Clientes";
 import Delivery from "../components/Delivery";
+import Contado from "../components/Contado";
 
 const Home = () => {
 	return (
@@ -25,6 +26,9 @@ const Home = () => {
 			</section>
 			<section>
 				<Delivery/>
+			</section>
+			<section>
+				<Contado/>
 			</section>
 		</div>
 	);

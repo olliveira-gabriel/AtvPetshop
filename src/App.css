@@ -32,7 +32,7 @@
 	width: 100%;
 	object-fit: cover;   
 	height: 70vh;
-  }
+}
 
 .servico img{
 	height: 250px;
@@ -66,10 +66,10 @@
 	color: gray;
 }
 .delivery{
- background-color: #BED403;
- display: flex;
- flex-direction: row;
- margin: 10px 70px 20px 70px;
+	background-color: #BED403;
+	display: flex;
+	flex-direction: row;
+	margin: 10px 70px 20px 70px;
 
 }
 .txt{
@@ -78,4 +78,55 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+}
+.fale_conosco{
+	display: flex;
+	flex-direction: column;
+	width: 100% !important;
+	background-color: #333333;
+	color: #ffff;
+	text-align: center;
+}
+.formulario form{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+input{
+	width: 800px;
+	height: 35px;
+}
+.mensagem{
+	width: 800px;
+	height: 200px !important;
+	text-align: start !important;
+	vertical-align: top;
+}
+
+.fale_conosco button{
+	width: 200px;
+	height: 30px;
+	background-color: #212121;
+	color: white;
+}
+.btn-container {
+	display: flex;
+	justify-content: flex-end; 
+	margin: 15px 0px;
+}
+.informacoes{
+	margin: 5%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	border: 1px solid black;
+	text-align: left;
+	padding: 20px;
+	
+}
+.container_fc{
+	display: flex;
+	flex-direction: row;
 }
