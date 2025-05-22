@@ -9,6 +9,8 @@ import BemVindo from "../components/BemVindo";
 import Clientes from "../components/Clientes";
 import Delivery from "../components/Delivery";
 import Contado from "../components/Contado";
+import Mapa from "../components/Mapa";
+import Rodapé from "../components/Rodapé";
 
 const Home = () => {
 	return (
@@ -27,9 +29,11 @@ const Home = () => {
 			<section>
 				<Delivery/>
 			</section>
-			<section>
+			<footer>
 				<Contado/>
-			</section>
+				<Mapa/>
+				<Rodapé/>
+			</footer>
 		</div>
 	);
 };

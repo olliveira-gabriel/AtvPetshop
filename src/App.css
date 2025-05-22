@@ -1,3 +1,4 @@
+
 .logo img {
 
 	height: 100px;
@@ -92,7 +93,7 @@
 	flex-direction: column;
 	width: 800px;
 	margin-top: 2%;
-	margin-left: 5%;
+	margin-left: 20%;
 }
 input{
 	width: 800px;
@@ -100,7 +101,7 @@ input{
 }
 .mensagem{
 	width: 800px;
-	height: 200px !important;
+	height: 100px !important;
 	text-align: start !important;
 	vertical-align: top;
 }
@@ -117,11 +118,11 @@ input{
 	margin: 15px 0px;
 }
 .informacoes{
-	margin: 5%;
+	margin-left: 200px;
 	display: flex;
 	flex-direction: column;
 	color: white;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	text-align: left;
 	padding: 20px;
 	
@@ -129,4 +130,25 @@ input{
 .container_fc{
 	display: flex;
 	flex-direction: row;
+}
+.redes_sociais {
+  display: flex;
+  font-size: 20px;
+  gap: 10px; 
+}
+.mapa{
+	width: 100%;
+	height: 300px !important;
+	margin: 0;
+  	padding: 0;
+	display: block;
+}
+.rodape{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center; 
+	align-items: center;     
+	background-color: #CCCCCC;
+	margin-top: 2px;
 }

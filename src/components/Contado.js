@@ -27,9 +27,14 @@ function Contado() {
                                 <i className="bi bi-whatsapp me-2"></i>
                                 <span>(48) 9822 0092</span>
                             </div>
-                            <div className="linha">
+                            <div>
                                 <i className="bi bi-geo-alt me-2"></i>
                                 <span>Rua das Areias, 122<br/>Tapera - Florianópolis/SC</span>
+                            </div>
+                            <div className='redes_sociais'>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
                             </div>
                         </div>
                     </section>
