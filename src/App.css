@@ -152,3 +152,36 @@ input{
 	background-color: #CCCCCC;
 	margin-top: 2px;
 }
+.rotulo{
+	background-color: #333333;
+	color: #ffff;
+	width: 30%;
+	padding-left: 2%;
+	margin: 80px 90px;
+}
+.containerleft{
+	margin: 3% 8%;
+	display: flex;
+	gap: 20px;
+}
+.btnsaibamais{
+	background-color: #333333;
+	color: #ffff;
+	width: 180px;
+	height: 40px;
+	border-radius: 8px;
+}
+.calltoAction{
+	width: 85%;
+	height: 100px;
+	background-color: rgb(196, 196, 196);
+	margin: auto;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+}
+.containerright{
+	margin: 3% 8%;
+	display: flex;
+	gap: 20px;
+}
